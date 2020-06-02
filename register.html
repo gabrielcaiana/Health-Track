@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta name="description" content="Health Track">
+    <meta name="author" content="Gabriel">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,800;1,600&display=swap"
+        rel="stylesheet">
+    <title>Cadastre-se no Health Track</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row min-vh-100">
+            <div class="col-md-5 bg-login d-none d-md-block"></div>
+
+            <div class="col-md-7 d-flex justify-content-center align-items-center my-4">
+                <div class="container d-flex flex-column justify-content-center align-items-center">
+                    <div class="d-flex flex-column justify-content-center align-items-start">
+                        <h1 class="mb-5">Faça seu cadastro</h1>
+                        <p>Preencha as informações abaixo para se cadastrar</p>
+
+                        <form>
+                            <div class="form-group">
+                                <label for="nome">Nome</label>
+                                <input type="text" class="form-control" id="nome">
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="nasc">Data de nascimento</label>
+                                    <input type="date" class="form-control" id="nasc">
+                                </div>
+
+                                <div class="form-group col-md-6">
+                                    <label for="altura">Altura</label>
+                                    <input type="number" class="form-control" id="altura">
+                                </div>
+                            </div>
+
+                            <fieldset class="form-group">
+                                <label>Gênero</label>
+                                <div class="row">
+                                    <div class="col-sm-10">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="gridRadios"
+                                                id="gridRadios1" value="option1" checked>
+                                            <label class="form-check-label" for="gridRadios1">
+                                                Homem
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="gridRadios"
+                                                id="gridRadios2" value="option2">
+                                            <label class="form-check-label" for="gridRadios2">
+                                                Mulher
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="gridRadios"
+                                                id="gridRadios3" value="option3">
+                                            <label class="form-check-label" for="gridRadios3">
+                                                Não binário
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </fieldset>
+
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="informar-senha">Senha</label>
+                                <input type="password" class="form-control" id="informar-senha">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="confirmar-senha">Confirmar senha</label>
+                                <input type="password" class="form-control" id="confirmar-senha">
+                            </div>
+                            <button  class="btn-health-outline my-4 mr-2"><a href="index.html">Voltar</a></button>
+                            <button type="submit" class="btn btn-health btn-primary my-4">Cadastrar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -3,6 +3,7 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+
 .blue {
     color: #005CFA;
 }
@@ -19,13 +20,23 @@
     background-color: rgb(7, 73, 189);
 }
 
+.btn-health-outline {
+    border-radius: 48px;
+    padding: 8px 16px;
+    width: 150px;
+    border: 1px solid #005cfa;
+    background-color: transparent;
+    color: #005CFA;
+    transition: 0.3s;
+}
+
 /* Login */
 .bg-login {
     background-image: url("../imagens/background-login.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    height: 100vh;
+    max-height: 1000px;
 }
 
 h1 {
@@ -33,7 +44,7 @@ h1 {
     color: #1E272E;
 }
 
-#login{
+form{
   width: 100%;
 }
 
