@@ -1,3 +1,39 @@
+/* Global */
 * {
     font-family: 'Open Sans', sans-serif;
 }
+
+.blue {
+    color: #005CFA;
+}
+
+.btn-health {
+    border-radius: 48px;
+    padding: 8px 16px;
+    width: 150px;
+    background-color: #005CFA;
+    transition: 0.3s;
+}
+
+.btn-health:hover {
+    background-color: rgb(7, 73, 189);
+}
+
+/* Login */
+.bg-login {
+    background-image: url("../imagens/background-login.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 32px;
+    color: #1E272E;
+}
+
+#login{
+  width: 100%;
+}
+
