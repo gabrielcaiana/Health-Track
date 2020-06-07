@@ -133,8 +133,8 @@ form{
     color: var(--white);
 }
 
- .nav-link:hover {
-    background-color: var(--marine);
+ .sideMenu .nav-link:hover {
+    background-color: rgb(230, 230, 230);
     color: var(--white);
 }
 
