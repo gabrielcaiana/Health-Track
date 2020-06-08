@@ -43,6 +43,10 @@ form {
     color: var(--green);
 }
 
+.lightBlue {
+    color: var(--lightBlue);
+}
+
 .btn-health {
   border-radius: 48px;
   padding: 8px 16px;
