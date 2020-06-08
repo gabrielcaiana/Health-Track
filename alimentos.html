@@ -39,7 +39,9 @@
             <a href="perfil.html">Perfil</a>
           </button>
           <div class="dropdown-divider"></div>
-          <a href="index.html"><button class="dropdown-item" type="button">Sair</button></a>
+          <a href="index.html"
+            ><button class="dropdown-item" type="button">Sair</button></a
+          >
         </div>
       </div>
     </nav>
@@ -108,7 +110,7 @@
                       <p class="my-4">Lista de Alimentos</p>
                       <thead>
                         <tr>
-                          <th scope="col">Data</th>
+                          <th scope="col">Tipo</th>
                           <th scope="col">Descrição</th>
                           <th scope="col">N° de calorias</th>
                           <th scope="col">Data/Hora</th>
@@ -117,7 +119,7 @@
                       </thead>
                       <tbody>
                         <tr>
-                          <td>23/05/2020</td>
+                          <td>Café da manhã</td>
                           <td>Torradas e suco de laranja</td>
                           <td>300 calorias</td>
                           <td>23/05/2020 - 08:00</td>
@@ -131,7 +133,7 @@
                           </td>
                         </tr>
                         <tr>
-                          <td>23/05/2020</td>
+                          <td>Almoço</td>
                           <td>Torradas e suco de laranja</td>
                           <td>300 calorias</td>
                           <td>23/05/2020 - 08:00</td>
@@ -145,10 +147,10 @@
                           </td>
                         </tr>
                         <tr>
-                          <td>23/05/2020</td>
+                          <td>Jantar</td>
                           <td>Torradas e suco de laranja</td>
                           <td>300 calorias</td>
-                          <td>23/05/2020 - 08:00</td>
+                          <td>23/05/2020 - 20:00</td>
                           <td>
                             <span class="material-icons icon-edit">
                               create
@@ -161,9 +163,56 @@
                       </tbody>
                     </table>
                   </div>
-                  <button class="btn-health mr-0">
+                  <button class="btn-health mr-0" data-toggle="modal" data-target="#staticBackdrop">
                     <a href="#">Adicionar</a>
                   </button>
+
+                  <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="staticBackdropLabel">Cadastrar alimento</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <form>
+                              <h6 class="py-2">Preencha as informações</h6>
+                              <div class="input-group mb-3">
+                                <select class="custom-select" id="inputGroupSelect02">
+                                  <option selected>Tipo de refeição</option>
+                                  <option value="1">Café da manhã</option>
+                                  <option value="2">Almoço</option>
+                                  <option value="3">Lanche</option>
+                                  <option value="3">Jantar</option>
+                                </select>
+                              </div>
+
+                              <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Descrição</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Digite uma descrição"></textarea>
+                              </div>
+                              <div class="form-row">
+                                <div class="form-group col-md-6">
+                                  <label for="calorias">N° de calorias</label>
+                                  <input type="number" class="form-control" id="calorias">
+                                </div>
+
+                                <div class="form-group col-md-6">
+                                  <label for="data">Data/Hora</label>
+                                  <input type="date" class="form-control" id="data">
+                                </div>
+                              </div>
+                          </form>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn-health-outline" data-dismiss="modal">Fechar</button>
+                          <button type="button" class="btn-health" data-dismiss="modal">Salvar</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
