@@ -68,7 +68,7 @@ form {
 
 .btn-health:hover {
   background-color: #0749bd;
-  color: var(--hoverBlue);
+  color: var(--white)
 }
 
 .btn-health-outline {
