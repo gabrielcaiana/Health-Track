@@ -92,14 +92,91 @@
 
       <div class="content">
         <main class="pb-5">
-          <div class="container-fluid header-dashboard">
+          <div class="container-fluid header-perfil">
+            <div class="container position-relative">
             <div class="row">
-              <div class="col-md-12 text-white">
-                <h3>Perfil</h3>
+              <div class="col-md-12 text-white px-0 pb-5">
+                <h3>Editar perfil</h3>
               </div>
             </div>
-            <div class="row resumo-dashboard">
-        
+
+            <div class="row resumo-perfil py-4 px-4 position-absolute">  
+              <form>
+                <div class="container w-75">
+                  <h5 class="py-4">Informações do usuário</h5>
+                <div class="form-row">
+                  <div class="form-group col-md-8">
+                      <label for="nome">Nome</label>
+                      <input type="text" class="form-control" id="nome">
+                  </div>
+
+                  <div class="form-group col-md-4">
+                    <label for="nasc">Data de nascimento</label>
+                    <input type="date" class="form-control" id="nasc">
+                </div>
+              </div>
+
+                <div class="form-row">
+                  <div class="form-group col-md-8">
+                    <label for="exampleInputEmail1">Email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1"
+                        aria-describedby="emailHelp">
+                </div>
+
+                    <div class="form-group col-md-4">
+                        <label for="altura">Altura</label>
+                        <input type="number" class="form-control" id="altura">
+                    </div>
+                </div>
+
+                <fieldset class="form-group">
+                    <label>Gênero</label>
+                    <div class="row">
+                        <div class="col-sm-12 d-flex">
+                            <div class="form-check pr-3">
+                                <input class="form-check-input" type="radio" name="gridRadios"
+                                    id="gridRadios1" value="option1" checked>
+                                <label class="form-check-label" for="gridRadios1">
+                                    Homem
+                                </label>
+                            </div>
+                            <div class="form-check pr-3">
+                                <input class="form-check-input" type="radio" name="gridRadios"
+                                    id="gridRadios2" value="option2">
+                                <label class="form-check-label" for="gridRadios2">
+                                    Mulher
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gridRadios"
+                                    id="gridRadios3" value="option3">
+                                <label class="form-check-label" for="gridRadios3">
+                                    Não binário
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <div class="dropdown-divider"></div>
+
+                <h5 class="py-4">Alterar senha</h5>
+
+                <div class="form-row">
+                  <div class="form-group col-md-4">
+                    <label for="informar-senha">Senha</label>
+                    <input type="password" class="form-control" id="informar-senha">
+                </div>
+                <div class="form-group col-md-4">
+                  <label for="informar-senha">Confirmar senha</label>
+                  <input type="password" class="form-control" id="informar-senha">
+              </div>
+                </div>
+  
+                <button type="submit" class="btn btn-health btn-primary my-4">Salvar</button>
+              </div>
+            </form>
+            </div>
           </div>
         </main>
       </div>
