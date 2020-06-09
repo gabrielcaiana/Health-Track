@@ -279,10 +279,16 @@ form {
 /*Tabelas*/
 .icon-edit {
     color: #808080;
+    cursor: pointer;
+}
+
+.icon-edit:hover {
+  color: var(--darkBlue);
 }
 
 .icon-delete {
     color: #f44336;
+    cursor: pointer;
 }
 
 /*Pefil*/
