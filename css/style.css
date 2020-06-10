@@ -32,19 +32,19 @@ form {
 }
 
 .gray-text {
-    color: #787D82;
+  color: #787d82;
 }
 
 .red {
-    color: #f44336;
+  color: #f44336;
 }
 
 .green {
-    color: var(--green);
+  color: var(--green);
 }
 
 .lightBlue {
-    color: var(--lightBlue);
+  color: var(--lightBlue);
 }
 
 .btn-health {
@@ -72,7 +72,7 @@ form {
 
 .btn-health:hover {
   background-color: #0749bd;
-  color: var(--white)
+  color: var(--white);
 }
 
 .btn-health-outline {
@@ -125,7 +125,7 @@ form {
   margin: 68px auto auto;
 }
 
-.active .sideMenu .material-icons{
+.active .sideMenu .material-icons {
   color: var(--white);
 }
 
@@ -216,6 +216,12 @@ form {
   color: #808080;
 }
 
+.cards-dashboard img {
+  max-width: 70px;
+  min-width: 32px;
+  width: 100%;
+}
+
 .imc .conteudo-card {
   font-size: 26px;
   color: #f44336;
@@ -291,8 +297,8 @@ form {
 
 /*Tabelas*/
 .icon-edit {
-    color: #808080;
-    cursor: pointer;
+  color: #808080;
+  cursor: pointer;
 }
 
 .icon-edit:hover {
@@ -300,8 +306,8 @@ form {
 }
 
 .icon-delete {
-    color: #f44336;
-    cursor: pointer;
+  color: #f44336;
+  cursor: pointer;
 }
 
 /*Pefil*/
@@ -354,7 +360,7 @@ form {
   }
 
   .active .active-icon {
-      color: white;
+    color: white;
   }
 }
 
@@ -363,7 +369,7 @@ form {
     position: initial;
     height: auto;
   }
-  
+
   .resumo-dashboard .cards-dashboard {
     position: absolute;
     width: 90%;
@@ -387,9 +393,8 @@ form {
   .resumo-dashboard .peso {
     box-shadow: 0px 4px 20px rgba(0, 92, 250, 0.3);
   }
-  
+
   .resumo-dashboard .pressao-arterial {
     box-shadow: 0px 4px 20px rgba(106, 222, 177, 0.3);
   }
 }
- 
