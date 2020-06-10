@@ -65,7 +65,7 @@
                     >
                   </div>
 
-                  <a href="#" class="ml-auto">Esqueceu sua senha?</a>
+                  <a href="#" class="ml-auto" data-toggle="modal" data-target="#staticBackdrop">Esqueceu sua senha?</a>
                 </div>
                 <button type="submit" class="btn btn-health btn-primary my-3">
                   <a href="dashboard.html">Entrar</a>
@@ -79,6 +79,67 @@
                   ></span
                 >
               </p>
+
+              <div
+                class="modal fade"
+                id="staticBackdrop"
+                data-backdrop="static"
+                data-keyboard="false"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="staticBackdropLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="staticBackdropLabel">
+                        Recuperar senha
+                      </h5>
+                      <button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                        <h6 class="py-3">Informe seu e-mail e enviaremos instruções para recuperar sua conta.</h6>
+                        <div class="form-row">
+                          <div class="form-group col-md-12">
+                            <label for="peso">E-mail</label>
+                            <input
+                              type="email"
+                              class="form-control"
+                              placeholder="Digite seu e-mail"
+                              id="email"
+                            />
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn-health-outline"
+                        data-dismiss="modal"
+                      >
+                        Fechar
+                      </button>
+                      <button
+                        type="button"
+                        class="btn-health"
+                        data-dismiss="modal"
+                      >
+                        Enviar
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
